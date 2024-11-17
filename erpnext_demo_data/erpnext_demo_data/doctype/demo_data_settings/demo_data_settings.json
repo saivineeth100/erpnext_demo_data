@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-17 11:00:50.871453",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company_section",
+  "text_staz",
+  "suppliers_section",
+  "table_suppliers",
+  "section_break_cxxv",
+  "table_customers"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_cxxv",
+   "fieldtype": "Section Break",
+   "label": "Customers"
+  },
+  {
+   "fieldname": "suppliers_section",
+   "fieldtype": "Section Break",
+   "label": "Suppliers"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "allow_in_quick_entry": 1,
+   "fieldname": "table_suppliers",
+   "fieldtype": "Table",
+   "options": "Account Settings"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "allow_in_quick_entry": 1,
+   "fieldname": "table_customers",
+   "fieldtype": "Table",
+   "options": "Account Settings"
+  },
+  {
+   "fieldname": "company_section",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "description": "Select company to add demo data\n(Prefer creating new company or select company that does not have any live data)",
+   "fieldname": "text_staz",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "remember_last_selected_value": 1,
+   "reqd": 1,
+   "width": "10"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-11-17 14:38:50.440145",
+ "modified_by": "Administrator",
+ "module": "Erpnext Demo Data",
+ "name": "Demo Data Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

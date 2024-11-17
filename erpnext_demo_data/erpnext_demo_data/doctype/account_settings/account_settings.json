@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-17 11:17:40.148664",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nationality",
+  "column_break_kbml",
+  "count"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Count"
+  },
+  {
+   "fieldname": "column_break_kbml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Nationality",
+   "options": "IN"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-17 12:05:17.983431",
+ "modified_by": "Administrator",
+ "module": "Erpnext Demo Data",
+ "name": "Account Settings",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
